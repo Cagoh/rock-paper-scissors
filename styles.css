@@ -1,0 +1,58 @@
+.rock-paper-scissors-container {
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+.rock-paper-scissors-list {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.rock-paper-scissors-container img {
+    max-width: 100%;
+    max-height: auto;
+    border: 4px solid;
+}
+
+
+
+.rock-paper-scissors-container img:hover {
+
+    cursor: pointer;
+}
+
+/* Click animation */
+.rock-paper-scissors-container img:active {
+    transform: scale(0.9); /* Scale down when clicked */
+}
+
+
+
+
+/* .information-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:100px;
+    padding-right: 100px;
+} */
+
+.information-list {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 36px;
+
+}
+
+#refresh-button {
+    font-size: 24px;
+}
